@@ -1,6 +1,7 @@
 import React from "react";
-
+// Components
 import CourseGoalItem from "../CourseGoalItem/CourseGoalItem";
+// Styles
 import "./CourseGoalList.css";
 
 const CourseGoalList = ({ items, onDeleteItem }) => {

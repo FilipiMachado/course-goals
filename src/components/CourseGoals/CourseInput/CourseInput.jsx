@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-
+// Components
 import Button from "../../UI/Button/Button";
+// Styles
 import "./CourseInput.css";
 
 const CourseInput = ({ onAddGoal }) => {

@@ -1,5 +1,5 @@
 import React from "react";
-
+// Styles
 import "./CourseGoalItem.css";
 
 const CourseGoalItem = ({ onDelete, id, children }) => {
