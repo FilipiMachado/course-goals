@@ -28,7 +28,7 @@ const CourseInput = ({ onAddGoal }) => {
         <label>Course Goal</label>
         <input
           style={{
-            borderColor: !isValid ? "red" : "black",
+            borderColor: !isValid ? "red" : "#ccc",
             background: !isValid ? "salmon" : "white",
           }}
           type="text"
