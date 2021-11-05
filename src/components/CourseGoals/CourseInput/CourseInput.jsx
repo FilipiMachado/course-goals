@@ -27,7 +27,10 @@ const CourseInput = ({ onAddGoal }) => {
       <div className="form-control">
         <label>Course Goal</label>
         <input
-          style={{ borderColor: !isValid ? "red" : "black" }}
+          style={{
+            borderColor: !isValid ? "red" : "black",
+            background: !isValid ? "salmon" : "white",
+          }}
           type="text"
           onChange={goalInputChangeHandler}
         />
