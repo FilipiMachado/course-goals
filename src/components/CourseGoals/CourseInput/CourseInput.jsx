@@ -4,18 +4,18 @@ import styled from "styled-components";
 // Components
 import Button from "../../UI/Button/Button";
 // Styles
-import "./CourseInput.css";
+//import "./CourseInput.css";
 
 const FormControl = styled.div`
   margin: 0.5rem 0;
 
-  &form-control label {
+  & label {
     font-weight: bold;
     display: block;
     margin-bottom: 0.5rem;
   }
 
-  &form-control input {
+  & input {
     display: block;
     width: 100%;
     border: 1px solid #ccc;
@@ -24,18 +24,18 @@ const FormControl = styled.div`
     padding: 0 0.25rem;
   }
 
-  &form-control input:focus {
+  & input:focus {
     outline: none;
     background: #fad0ec;
     border-color: #8b005d;
   }
 
-  &form-control.invalid input {
+  &.invalid input {
     border-color: red;
     background: rgb(250, 165, 156);
   }
 
-  &form-control.invalid label {
+  &.invalid label {
     color: red;
   }
 `;
