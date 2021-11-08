@@ -1,7 +1,7 @@
 import React from "react";
 //import React from "react";
 // Styles
-//import "./Button.css";
+import styles from "./Button.module.css";
 //import styled from "styled-components";
 
 /* const Button = styled.button`
@@ -31,7 +31,7 @@ import React from "react";
 
 const Button = ({ type, onClick, children }) => {
   return (
-    <button type={type} className="button" onClick={onClick}>
+    <button type={type} className={styles.button} onClick={onClick}>
       {children}
     </button>
   );
